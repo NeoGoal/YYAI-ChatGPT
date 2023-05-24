@@ -22,7 +22,7 @@ available_setting = {
     # Bot触发配置
     "single_chat_prefix": [""],  # 私聊时文本需要包含该前缀才能触发机器人回复
     "single_chat_reply_prefix": "[圆圆AI] ",  # 私聊时自动回复的前缀，用于区分真人
-    "group_chat_prefix": [""],  # 群聊时包含该前缀则会触发机器人回复
+    "group_chat_prefix": ["@yy","@yy1","@圆圆"],  # 群聊时包含该前缀则会触发机器人回复
     "group_chat_reply_prefix": "[圆圆AI]",  # 群聊时自动回复的前缀
     "group_chat_keyword": [],  # 群聊时包含该关键词则会触发机器人回复
     "group_at_off": False,  # 是否关闭群聊时@bot的触发
@@ -35,7 +35,7 @@ available_setting = {
     "image_create_size": "256x256",  # 图片大小,可选有 256x256, 512x512, 1024x1024
     # chatgpt会话参数
     "expires_in_seconds": 3600,  # 无操作会话的过期时间
-    "character_desc": "你是圆圆AI，集成ChatGPT, 一个由OpenAI训练的大型语言模型, 你旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。",  # 人格描述
+    "character_desc": "你是圆圆AI，集成ChatGPT、GPT4、MJ、SD等大模型,你旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。",  # 人格描述
     "conversation_max_tokens": 1000,  # 支持上下文记忆的最多字符数
     # chatgpt限流配置
     "rate_limit_chatgpt": 20,  # chatgpt的调用频率限制
